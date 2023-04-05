@@ -571,42 +571,51 @@ header{
     font-size: 1.1rem;
 }
     /*============== PROJET ==============*/
-.projet_container{
-    overflow: initial;
-    background-color: #fff;
-
-}
-
-.projet_content{
-    padding: 0 1.5rem;
-}
-
-.projet_img{
-    width: 265px;
-    border-radius: 2rem;
-    justify-self: center;
-    margin-top: 1rem;
-}
-.projet_img:hover{
-    transform: scale(1.1);
-    transition: .4s;
-}
-
-
-.projet_title{
-    font-size: var(--h3-font-size);
-    margin-bottom: .5rem;
-    color: var(--first-color-alt);
-}
-
-.projet_description{
-    margin-bottom: .75rem;
-}
-
-.projet_button:hover .button_icon{
-    transform: translateX(.25rem);
-}
-
+    .project_container{
+        display: flex;
+        flex-direction: row;
+        background-color: #fff;
+        border-radius: 2rem;
+        box-shadow: var(--shadow-1);
+        padding: 5rem;
+    }
+    
+    .project_container div{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        margin: auto;
+        
+    }
+    
+    .project_container figure{
+        margin: 1rem;
+        text-align: center;
+    }
+    
+    .project_content{
+        padding: 0 1.5rem;
+    }
+    
+    .project_img{
+        border-radius: 0.5rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+    
+    .project_name{
+        text-align: center;
+    }
+    
+    .project_name a{
+        color: black;
+        
+    }
+    
+    .project_name a:hover{
+        color: var(--first-color-alt);
+    }
+  
+ 
     /*============== CONTACT ==============*/
 .contact_container{
     row-gap: 3rem;
