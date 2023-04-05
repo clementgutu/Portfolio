@@ -573,7 +573,7 @@ header{
     /*============== PROJET ==============*/
     .project_container{
         display: flex;
-        flex-direction: row;
+        flex-direction: column; /* changer la direction en colonne */
         background-color: #fff;
         border-radius: 2rem;
         box-shadow: var(--shadow-1);
@@ -582,13 +582,13 @@ header{
     
     .project_container div{
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(1, 1fr); /* changer le nombre de colonnes en 1 */
         margin: auto;
-        
+        gap: 2rem; /* ajouter un espacement entre les blocs */
     }
     
     .project_container figure{
-        margin: 1rem;
+        margin: auto; /* centrer les blocs horizontalement */
         text-align: center;
     }
     
@@ -604,17 +604,17 @@ header{
     
     .project_name{
         text-align: center;
+        margin-top: 1rem; /* ajouter un espacement entre l'image et le nom du projet */
     }
     
     .project_name a{
         color: black;
-        
     }
     
     .project_name a:hover{
         color: var(--first-color-alt);
     }
-  
+     
  
     /*============== CONTACT ==============*/
 .contact_container{
