@@ -11,7 +11,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
     <link rel="manifest" href="favicon/site.webmanifest">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <!-- ========================= HEADER =========================-->
@@ -47,7 +47,7 @@
                         </a>
                     </li>
                     <li class="nav_item">
-                        <a href="pages/veille.html" class="nav_link" >
+                        <a href="pages/veille.php" class="nav_link" >
                             <i class="fa-solid fa-message nav_icon"></i> veille technologique
                         </a>
                     </li>
@@ -185,7 +185,7 @@
             <!-- =============== Projets ===============-->
             <section class="project section" id="projets">
                 <h2 class="section_title">Projet_1</h2>
-                    <a href="pages/ligues.html" >
+                    <a href="pages/ligues.php" >
                 <span class="section_subtitle">Travaux effectués</span>
                 <div class="project_container container">
                     <div>
@@ -201,7 +201,7 @@
             
             <section class="project section" id="projets">
                 <h2 class="section_title">Projet_2</h2>
-                    <a href="pages/m2l.html">
+                    <a href="pages/m2l.php">
                 <span class="section_subtitle">Travaux effectués</span>
                 <div class="project_container container">
                     <div>
