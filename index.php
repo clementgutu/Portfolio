@@ -64,14 +64,51 @@
         <!-- ========================= MAIN =========================-->
     <main class="main">
             <!-- =============== Home ===============-->
-     
-        
+            <section class="home section" id="home">
+            <div class="home_container container grid">
+                <div class="home_content grid">
+                    
+                    <div class="home_data">
+                        <h2 class="home_title">Bonjour, je m'appelle Clément GUTU</h2>
+                        <h3 class="home_subtitle">Développeur Informatique</h3>
+                        <p class="home_description">Étudiant en BTS SIO (2ème année) axé sur le développement web et le développement d'Application mobile. <br>
+                        Actuellement en alternance, je suis en train de développer un site intranet en Sharepoint dans le cadre de mon programme de formation professionnelle.</p>
+                        <div class="contacts">
+                            <a href="#contact" class="button button-flex">
+                            Contactez-moi <i class="fa-solid fa-phone button_icon"></i>
+                        </a>
+                        <a href="asset/CV Clement.pdf" target="_blank" class=" home_social-icon">
+                            <i class="fa-brands fa-linkedin" title="Icône Linkedin"></i>
+                        </a>
+                        <a href="https://github.com/clementgutu" target="_blank" class="home_social-icon">
+                            <i class="fa-brands fa-github" title="Icône GitHub"></i>
+                        </a>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
         <div class="skills2_content">
             <div class="skills2_box">
                 <h2>Développement Web</h2>
-                <p>J'ai une expérience solide en développement de sites web, avec une expertise particulière en utilisant les technologies Python, CSS et HTML pour créer des sites dynamiques et interactifs.</p>
+                <p>Conçevoir des sites sur mesure ou adapte des solutions techniques existantes en fonction du projet et de la demande du client.</p>
             </div>
-        </div>
+            <div class="skills2_box responsive">
+                 <h2>Responsive</h2>
+                 <p>Afficher tous les éléments d’une page de manière clair quel que soit le format.</p>
+             </div>
+             <div class="skills2_box">
+                 <h2>Développement d'Intranet</h2>
+                 <p>Participe à la création et à la maintenance des sites intranet sur la plateforme SharePoint, en assurant l'analyse fonctionnelle, la conception technique, le développement...</p>
+             </div>
+             <div class="skills2_box">
+                 <h2>Administrateur de base de données</h2>
+                 <p>Création, maintenance, optimisation et la sécurité des bases de données</p>
+             </div>
+         </div>
+
             <!-- =============== Compétences ===============-->
         <section class="skills section" id="skills">
             <h2 class="section_title">Compétences</h2>
@@ -85,9 +122,12 @@
                 <ul class="second">
                     <li><figure><img class="logos" src="./asset/java.png" alt="logo java"></figure></li>
                     <li><figure><img class="logos" src="./asset/mysql.png" alt="logo mysql"></figure></li>
+                    <li><figure><img class="logos" src="./asset/php.png" alt="logo php"></figure></li>
                 </ul>
             </div>
         </section>
+
+        
         
             <!-- =============== Diplômes / Expériences ===============-->
         <section class="experience section" id="experience">

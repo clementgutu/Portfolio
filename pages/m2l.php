@@ -22,7 +22,7 @@
             <div class="nav_menu" id="nav-menu">
                 <ul class="nav_list grid">
                     <li class="nav_item">
-                        <a href="index.php#home"> 
+                        <a href="../index.php#home"> 
                             <i class="fa-sharp fa-solid fa-house"></i> Accueil
                         </a>
                     </li>
