@@ -35,7 +35,11 @@ h1,h2,h3,h4{
     font-weight: var(--font-semi-bold);
     color: var(--first-color);
 }
-
+h5{
+    font-weight: var(--font-semi-bold);
+    font-size: 2.35rem;
+    color:#080808
+}
 
 :root{
     --header-height: 4rem;
