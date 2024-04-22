@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
+
     /*========== BASE ==========*/
 *{
     box-sizing: border-box;
@@ -28,12 +29,8 @@ a{
     text-decoration: none;
 }
 img{
-    display: flex;
     max-width: 100%;
     height: auto;
-    margin-top: 5rem;
-    margin-left: 86rem;
-    
 }
 h1,h2,h3,h4{
     font-weight: var(--font-semi-bold);
@@ -299,6 +296,7 @@ header{
     border-radius: 6px;
     background: var(--background-color-1);
     box-shadow: var(--shadow-1);
+    inline-size: -moz-available;
 }
 
 .home_social-icon:hover{
@@ -315,10 +313,10 @@ header{
 }
 
 .home_subtitle{
-    font-size: var(--h3-font-size);
     color: var(--first-color-alt);
     font-weight: var(--font-medium);
     margin-bottom: 0.75rem;
+    white-space: nowrap;
 }
 
 .home_description{
