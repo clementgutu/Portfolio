@@ -299,6 +299,7 @@ header{
     border-radius: 6px;
     background: var(--background-color-1);
     box-shadow: var(--shadow-1);
+    inline-size: -moz-available;
 }
 
 .home_social-icon:hover{
