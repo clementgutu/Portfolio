@@ -2,6 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
     /*========== BASE ==========*/
+
+    /*================== CSS de l'image ==================*/
+
+    
+
 *{
     box-sizing: border-box;
 }
@@ -27,14 +32,97 @@ ul{
 a{
     text-decoration: none;
 }
-img{
+
+.image-container {
     display: flex;
-    max-width: 100%;
-    height: auto;
+    justify-content: center;
     margin-top: 5rem;
-    margin-left: 86rem;
-    
 }
+
+.image-container img {
+    width: 36%;
+    height: auto;
+}
+
+/* Centrage de la section */
+.presentation.section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style du bouton */
+.btn-veille {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #ecde19; /* Bleu classique */
+    color: #000000;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+/* Centrage du bloc */
+.feedly-block {
+    text-align: center;
+    padding: 30px;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.08);
+}
+
+/* Titre & sous-titre */
+.feedly-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000;
+}
+
+.feedly-subtitle {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Boutons de lien */
+.feedly-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.feedly-btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: #f4f4f4;
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+
+.feedly-btn:hover {
+    background-color: #e2e2e2;
+    transform: translateY(-2px);
+    }
+
+/* Icônes */
+.feedly-btn .icon {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+
+
 h1,h2,h3,h4{
     font-weight: var(--font-semi-bold);
     color: var(--first-color);
@@ -747,7 +835,6 @@ main {
     position: relative;
     height: 100 vh;
 }
-
 
 
     /*============== Boutton télécharger ==============*/
